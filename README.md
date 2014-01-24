@@ -8,9 +8,9 @@ Este proyecto está compuesto por güena gente.
 Los miembros de este proyecto son:
 
 
-Jose
+Jose López Sánchez
 
-Rafa
+Rafael Gónzalez Jiménez
 
 Raúl Sánchez Fuentes
 
