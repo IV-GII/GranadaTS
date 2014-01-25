@@ -3,8 +3,6 @@ GranadaTS
 
 Proyecto creación aplicación para empresa
 
-Este proyecto está compuesto por güena gente.
-
 Los miembros de este proyecto son:
 
 
@@ -38,3 +36,9 @@ El servidor que vamos utilizar tiene las siguientes prestaciones:
 
 ![IV](https://raw2.github.com/IV-GII/GranadaTS/master/Capturas%20Azure/Captura%20de%20pantalla%202014-01-24%20a%20la%28s%29%2018.07.35.png)
 
+
+Para el entorno hemos trabajado con bootstrap, utilizando HTML5.
+
+Para el trabajo con imagenes hemos utilizado Inkscape, con el que hemos conseguido introducir el texto deseado por el usuario en la imagen deseada.
+
+Después gracias a PHP y a la función XXX transformamos la imagen al formato png, para su posterior descarga.
