@@ -1,16 +1,16 @@
-GranadaTS
-=========
+##GranadaTS
+
 
 Proyecto creación aplicación para empresa
 
 Los miembros de este proyecto son:
 
 
-Jose López Sánchez
+* Jose López Sánchez
 
-Rafael Gónzalez Jiménez
+* Rafael Gónzalez Jiménez
 
-Raúl Sánchez Fuentes
+* Raúl Sánchez Fuentes
 
 
 Este es un proyecto para la empresa Granada Tierra Soñada, http://www.granadatierrasoñada.es/.
@@ -22,7 +22,7 @@ Con ello vamos a crear una aplicación en HTML5 y en plataformas móviles. En el
 Como herramientas utilizaremos Azure, para colgar la aplicación y bootstrap como framework.
 
 
-INSTALACIÓN SERVIDOR EN AZURE
+###INSTALACIÓN SERVIDOR EN AZURE
 
 El servidor que vamos utilizar tiene las siguientes prestaciones:
 
