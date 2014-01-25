@@ -24,4 +24,10 @@ Con ello vamos a crear una aplicación en HTML5 y en plataformas móviles. En el
 Como herramientas utilizaremos Azure, para colgar la aplicación y bootstrap como framework.
 
 
+INSTALACIÓN SERVIDOR EN AZURE
+
+El servidor que vamos utilizar tiene las siguientes prestaciones:
+
+
+
 
