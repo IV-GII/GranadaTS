@@ -14,30 +14,35 @@
   
   <body>
 	<div class="container">
-		<nav class="navbar navbar-inverse" role="navigation">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="http://www.xn--granadatierrasoada-10b.es/">GranadaTS</a>
-			</div>
-			<div class="collapse navbar-collapse navbar-ex1-collapse">
-				<ul class="nav navbar-nav">
-					<li><a href="index.html">Inicio</a></li>
-					<li class="active"><a href="tipografia.html">Tipografía</a></li>
-					<li><a href="imagenes.html">Imágenes</a></li>
-					<li><a href="musica.html">Música</a></li>
-					
-				</ul>
- 
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="http://www.xn--granadatierrasoada-10b.es/"> Home </a></li>
-				</ul>
-					
+		<nav class="navbar navbar-default" role="navigation">
+				<div class="navbar-header">
+					 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="http://www.xn--granadatierrasoada-10b.es/">GranadaTS</a>
 				</div>
+				
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="index.html">Inicio</a>
+						</li>
+						<li class="active">
+							<a href="tipografia.html">Tipografía</a>
+						</li>
+						<li >
+							 <a href="imagenes.html">Imágenes</a>
+						</li>
+						<li >
+							 <a href="musica.html">Música</a>
+						</li>
+					</ul>
+					
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="contacto.html">Contacto</a>
+						</li>
+						
+					</ul>
+				</div>
+				
 			</nav>
 		
 		
@@ -58,6 +63,22 @@
 						<br><br>
 						<label for="color">Color: </label>
 						<input name="color" type="color" value="#f3f3f3" >
+						<br><br>
+						<label for="tamaño">Tamaño:</laber>
+						<select name="tam">
+							<option value=20>20</option>
+							<option value=30>30</option>
+							<option value=40>40</option>
+							<option value=50>50</option>
+							<option value=60>60</option>
+							<option value=70>70</option>
+						</select>
+						<br><br>
+						<label>¿Cómo quieres el fondo?</label><br>
+						<input type="radio" name="option" value="1" > Liso <br>
+						<input type="radio" name="option" value="2" > Modelo 1<br>
+						<input type="radio" name="option" value="3" > Modelo 2<br>
+						<input type="radio" name="option" value="4" > Modelo 3<br>
 						<br><br>
 						<button type="submit" class="btn btn-default">Enviar</button>
 					</form>

@@ -10,47 +10,51 @@
   <body>
 	  
 	  <div class="container">
-		<nav class="navbar navbar-inverse" role="navigation">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="http://www.xn--granadatierrasoada-10b.es/">GranadaTS</a>
-			</div>
-			<div class="collapse navbar-collapse navbar-ex1-collapse">
-				<ul class="nav navbar-nav">
-					<li><a href="index.html">Inicio</a></li>
-					<li class="active"><a href="tipografia.html">Tipografía</a></li>
-					<li><a href="imagenes.html">Imágenes</a></li>
-					<li><a href="musica.html">Música</a></li>
-					
-				</ul>
- 
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="http://www.xn--granadatierrasoada-10b.es/"> Home </a></li>
-				</ul>
-					
+		<nav class="navbar navbar-default" role="navigation">
+				<div class="navbar-header">
+					 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="http://www.xn--granadatierrasoada-10b.es/">GranadaTS</a>
 				</div>
+				
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="index.html">Inicio</a>
+						</li>
+						<li class="active">
+							<a href="tipografia.html">Tipografía</a>
+						</li>
+						<li >
+							 <a href="imagenes.html">Imágenes</a>
+						</li>
+						<li >
+							 <a href="musica.html">Música</a>
+						</li>
+					</ul>
+					
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="contacto.html">Contacto</a>
+						</li>
+						
+					</ul>
+				</div>
+				
 			</nav>
 		
 		
 		<h1> Granada <small> Tierra Soñada </small> </h1>
 		
 <?php
-function RemoveExtension($strName) {
-  $ext = strrchr($strName, '.');
+	function RemoveExtension($strName) {
+		$ext = strrchr($strName, '.');
 
-  if($ext !== false) {
-    $strName = substr($strName, 0, -strlen($ext));
-  }
-  return $strName;
-} 
+		if($ext !== false) {
+			$strName = substr($strName, 0, -strlen($ext));
+		}
+	return $strName;
+	} 
   
   $dirImagenes = "imagenesGR/";
-  
   $nombreFich = preg_replace("/[^a-zA-Z0-9.]/", "", $_FILES['imagen']['name']);
   
   $nombreTemporal = $_FILES['imagen']['tmp_name'];
@@ -63,13 +67,9 @@ function RemoveExtension($strName) {
 
 
   $texto = $_POST['texto'];
-
-  $fondo = $_POST['color'];     
-  
-  $width = $aux[0];
-  $height = $aux[1];
-  
- 
+  $tam = $_POST['tam'];
+  $fondo = $_POST['color'];
+  $option = $_POST['option'];     
   
   // Creamos el SVG
   
@@ -78,15 +78,26 @@ function RemoveExtension($strName) {
   $nombreSVG = $dirImagenes . "GranadaTS_" . RemoveExtension($nombreFich) . ".svg";
   $nombreSVG2 = "GranadaTS_" . RemoveExtension($nombreFich) . ".svg";
   
-  // Leemos en una variable la plantilla de texto
-
-  $content = file_get_contents("ejemplo2.svg.plantilla");
+  if ( $option == "1"){
+	 $valor = "ejemplo2.svg.plantilla";
+  }
+  if ($option == "2"){
+	 $valor = "ejemplo3.svg.plantilla";
+  }
+  if ($option == "3"){
+	 $valor = "ejemplo4.svg.plantilla";
+  }
+  if ($option == "4"){
+	 $valor = "ejemplo5.svg.plantilla";
+  }
+				 
+   // Leemos en una variable la plantilla de texto
+   $content = file_get_contents($valor);			  
   // Reemplazamos [[COLOR_FONDO]]
   $content = str_replace("[[COLOR_FONDO]]", $fondo, $content);
-  
   // Reemplazamos [[TEXTO1]]
   $content = str_replace("[[TEXTO1]]", $texto, $content);
-  
+  $content = str_replace("[[TAM]]", $tam, $content);
   $fh = fopen($nombreSVG, 'w');
   
 		fwrite($fh, $content);
@@ -100,8 +111,6 @@ function RemoveExtension($strName) {
   // Creamos la imagen png
   
   flush();
-  
-//  $nombrePNG = $dirImagenes . "azotea_" . RemoveExtension($nombreFich) . ".png";
   $nombrePNG = "granadaTS_" . RemoveExtension($nombreFich) . ".png";
   
   chdir($dirImagenes);  
@@ -114,7 +123,6 @@ function RemoveExtension($strName) {
   chdir("..");
 
 ?>
-
 		<div class="panel panel-default">
 				<div class="panel-heading">
 					<h3 class="panel-title">
@@ -122,9 +130,9 @@ function RemoveExtension($strName) {
 					</h3>
 				</div>
 				<div class="panel-body">
-					<center> <img alt="140x140" src="imagenesGR/granadaTS_.png" class="img-circle" /> </center>
+					<center> <img alt="140x140" src="imagenesGR/granadaTS_.png" class="img-responsive" /> </center>
 					<br><br>
-					<p><a href="<?php echo($dirImagenes); ?>/<?php echo($nombrePNG); ?>"><?php echo("granadaTS_" . RemoveExtension($nombreFich) . ".png")?></a></p>
+					
 				</div>
 					
 				</div>
