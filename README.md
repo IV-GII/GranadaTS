@@ -28,13 +28,13 @@ INSTALACIÓN SERVIDOR EN AZURE
 
 El servidor que vamos utilizar tiene las siguientes prestaciones:
 
-![IV](https://github.com/IV-GII/GranadaTS/blob/master/Capturas%20Azure/Captura%20de%20pantalla%202014-01-24%20a%20la%28s%29%2018.06.22.png)
+![IV](https://raw2.github.com/IV-GII/GranadaTS/master/Capturas%20Azure/Captura%20de%20pantalla%202014-01-24%20a%20la%28s%29%2018.06.22.png)
 
-![IV](https://github.com/IV-GII/GranadaTS/blob/master/Capturas%20Azure/Captura%20de%20pantalla%202014-01-24%20a%20la%28s%29%2018.06.30.png)
+![IV](https://raw2.github.com/IV-GII/GranadaTS/master/Capturas%20Azure/Captura%20de%20pantalla%202014-01-24%20a%20la%28s%29%2018.06.30.png)
 
-![IV](https://github.com/IV-GII/GranadaTS/blob/master/Capturas%20Azure/Captura%20de%20pantalla%202014-01-24%20a%20la%28s%29%2018.07.02.png)
+![IV](https://raw2.github.com/IV-GII/GranadaTS/master/Capturas%20Azure/Captura%20de%20pantalla%202014-01-24%20a%20la%28s%29%2018.07.02.png)
 
-![IV](https://github.com/IV-GII/GranadaTS/blob/master/Capturas%20Azure/Captura%20de%20pantalla%202014-01-24%20a%20la%28s%29%2018.07.14.png)
+![IV](https://raw2.github.com/IV-GII/GranadaTS/master/Capturas%20Azure/Captura%20de%20pantalla%202014-01-24%20a%20la%28s%29%2018.07.14.png)
 
-![IV](https://github.com/IV-GII/GranadaTS/blob/master/Capturas%20Azure/Captura%20de%20pantalla%202014-01-24%20a%20la%28s%29%2018.07.35.png)
+![IV](https://raw2.github.com/IV-GII/GranadaTS/master/Capturas%20Azure/Captura%20de%20pantalla%202014-01-24%20a%20la%28s%29%2018.07.35.png)
 
