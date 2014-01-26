@@ -37,8 +37,11 @@ El servidor que vamos utilizar tiene las siguientes prestaciones:
 ![IV](https://raw2.github.com/IV-GII/GranadaTS/master/Capturas%20Azure/Captura%20de%20pantalla%202014-01-24%20a%20la%28s%29%2018.07.35.png)
 
 
-Para el entorno hemos trabajado con bootstrap, utilizando HTML5.
+Para el entorno hemos trabajado con Bootstrap, utilizando HTML5.
+
+Hemos decidido utilizar Bootstrap por su funcionalidad responsive, pues nuestra aplicación ha de ser visionada desde todo tipo de dispositivos, y apoyado en HTML5, conseguimos una aplicación completa realizando su labor.
 
 Para el trabajo con imágenes hemos utilizado Inkscape, con el que hemos conseguido introducir el texto deseado por el usuario en la imagen deseada.
 
-Después gracias a PHP y a la función XXX transformamos la imagen al formato png, para su posterior descarga.
+Después gracias a PHP (y a Sergio) y a la función rsvg transformamos la imagen al formato png, para su posterior descarga.
+
