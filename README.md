@@ -50,7 +50,7 @@ Vamos a pasar a mostrar nuestra apliación:
 
 En esta primera cáptura podemos observar la página de inicio, donde podemos observar un menú para navegar por la aplicación. También podemos ver un carrusel con imagenes de muestra de la empresa. Señalamos que la tipografía usada para la aplicación es también la proporcionada por Granada Tierra Soñada.
 
-![IV]()
+![IV](https://raw2.github.com/IV-GII/GranadaTS/master/Capturas%20web/Captura%20de%20pantalla%202014-01-26%20a%20la%28s%29%2010.36.22.png)
 
 La pestaña de Tipografía del menú, nos lleva al principal contenido del proyecto, donde accedemos a las funciones de transformación de texto por un usuario en la tipografía de Granada Tierra Soñada. 
 
