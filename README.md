@@ -46,3 +46,12 @@ Para el trabajo con imágenes hemos utilizado Inkscape, con el que hemos consegu
 
 Después gracias a PHP (y a Sergio) y a la función rsvg transformamos la imagen al formato png, para su posterior descarga.
 
+Vamos a pasar a mostrar nuestra apliación:
+
+En esta primera cáptura podemos observar la página de inicio, donde podemos observar un menú para navegar por la aplicación. También podemos ver un carrusel con imagenes de muestra de la empresa. Señalamos que la tipografía usada para la aplicación es también la proporcionada por Granada Tierra Soñada.
+
+![IV]()
+
+La pestaña de Tipografía del menú, nos lleva al principal contenido del proyecto, donde accedemos a las funciones de transformación de texto por un usuario en la tipografía de Granada Tierra Soñada. 
+
+Podemos obserbar un cuadro de texto donde el usuario puede escribir, seguidamente escogerá el color de fondo y presionará "Enviar".
