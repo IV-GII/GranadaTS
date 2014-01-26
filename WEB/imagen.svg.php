@@ -7,7 +7,7 @@
 	
 </head>
   
-  <body style="background:#7BC9D0; font-family:granaina-limpia">
+  <body style="background:#7BC9D0">
 	  
 	  <div class="container">
 		<nav class="navbar navbar-default" role="navigation">
