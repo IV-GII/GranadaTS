@@ -1,7 +1,7 @@
 ##GranadaTS
 
 
-Proyecto creación aplicación para empresa
+Proyecto creación aplicación para empresa.
 
 Los miembros de este proyecto son:
 
@@ -12,12 +12,13 @@ Los miembros de este proyecto son:
 
 * Raúl Sánchez Fuentes
 
+La dirección del proyecto es: http://granadats.cloudapp.net
 
 Este es un proyecto para la empresa Granada Tierra Soñada, http://www.granadatierrasoñada.es/.
 
-Todo se basa en una tipología creada, basaba en Granada.
+La idea de esta empresa se basa en su tipología creada, basaba en Granada. Es un proyecto apasionante y muy innovador.
 
-Con ello vamos a crear una aplicación en HTML5 y en plataformas móviles. En ella se mostrará un conjunto de imagenes en las cuales podremos superponer un texto, con la tipografia de Granada Tierra Soñada.
+Con ello vamos a crear una aplicación en HTML5. En ella se mostrará un conjunto de imágenes en las vamos a superponer un texto, con la tipografia de Granada Tierra Soñada.
 
 Como herramientas utilizaremos Azure, para colgar la aplicación y bootstrap como framework.
 
