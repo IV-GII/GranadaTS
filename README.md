@@ -39,6 +39,6 @@ El servidor que vamos utilizar tiene las siguientes prestaciones:
 
 Para el entorno hemos trabajado con bootstrap, utilizando HTML5.
 
-Para el trabajo con imagenes hemos utilizado Inkscape, con el que hemos conseguido introducir el texto deseado por el usuario en la imagen deseada.
+Para el trabajo con imágenes hemos utilizado Inkscape, con el que hemos conseguido introducir el texto deseado por el usuario en la imagen deseada.
 
 Después gracias a PHP y a la función XXX transformamos la imagen al formato png, para su posterior descarga.
