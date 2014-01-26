@@ -68,7 +68,7 @@ Si entramos en "Imágenes" del menú, accedemos a una zona que dejamos reservada
 
 También tenemos la pestaña "Música", otra zona para una posterior actualización.
 
-Y por último tenemos una pestaña de "Contácto", donde se encuentra al equipo del proyecto.
+Y por último tenemos una pestaña de "Contacto", donde se encuentra al equipo del proyecto.
 
 ![IV](https://raw2.github.com/IV-GII/GranadaTS/master/Capturas%20web/Captura%20de%20pantalla%202014-01-26%20a%20la%28s%29%2010.38.56.png)
 
