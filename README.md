@@ -54,4 +54,22 @@ En esta primera cáptura podemos observar la página de inicio, donde podemos ob
 
 La pestaña de Tipografía del menú, nos lleva al principal contenido del proyecto, donde accedemos a las funciones de transformación de texto por un usuario en la tipografía de Granada Tierra Soñada. 
 
-Podemos obserbar un cuadro de texto donde el usuario puede escribir, seguidamente escogerá el color de fondo y presionará "Enviar".
+Podemos obserbar un cuadro de texto donde el usuario puede escribir, escogerá el tamaño de letra y el tipo de fondo. Finalmente escogerá el color de fondo y presionará "Enviar".
+
+![IV](https://raw2.github.com/IV-GII/GranadaTS/master/Capturas%20web/Captura%20de%20pantalla%202014-01-26%20a%20la%28s%29%2010.36.37.png)
+
+Vemos como ya nos devuelve la imagen con el texto deseado y la tipografía de Granada Tierra Soñada.
+
+![IV](https://raw2.github.com/IV-GII/GranadaTS/master/Capturas%20web/Captura%20de%20pantalla%202014-01-26%20a%20la%28s%29%2010.37.05.png)
+
+Si entramos en "Imágenes" del menú, accedemos a una zona que dejamos reservada para futuras imágenes de la empresa, en post de nuevas actualizaciones.
+
+![IV](https://raw2.github.com/IV-GII/GranadaTS/master/Capturas%20web/Captura%20de%20pantalla%202014-01-26%20a%20la%28s%29%2010.38.36.png)
+
+También tenemos la pestaña "Música", otra zona para una posterior actualización.
+
+Y por último tenemos una pestaña de "Contácto", donde se encuentra al equipo del proyecto.
+
+![IV](https://raw2.github.com/IV-GII/GranadaTS/master/Capturas%20web/Captura%20de%20pantalla%202014-01-26%20a%20la%28s%29%2010.38.56.png)
+
+
