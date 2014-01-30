@@ -77,7 +77,7 @@ Y por último tenemos una pestaña de "Contacto", donde se encuentra al equipo d
 
 Para la instalación de la tipografía, primeramente hemos entrado en la web de http://www.granadatierrasoñada.es/ y nos hemos descargado la tipografía.
 
-![IV]()
+![IV](https://raw.github.com/IV-GII/GranadaTS/master/capturastipografia/descarga.png)
 
 Seguidamente hemos cambiado el formato al archivo de forma que nos sirva para instalar la tipografía en el servidor y para la web.
 
@@ -95,7 +95,9 @@ Para la web simplemente hemos copiado los fichero en el archivo donde estan los 
 
 Ahora para utilizarlo para nuestra web hemos de añadir el siguiente código en nuestro css, donde utilizaremos la tipografía. Aquí lo mostramos:
 
-![IV]()
+![IV](https://raw.github.com/IV-GII/GranadaTS/master/capturastipografia/font-face.png)
+
+Y ya tenemos disponibilidad para utilizar la tipografía que hemos llamado "granada".
 
 
 
