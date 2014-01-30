@@ -73,3 +73,14 @@ Y por último tenemos una pestaña de "Contacto", donde se encuentra al equipo d
 ![IV](https://raw2.github.com/IV-GII/GranadaTS/master/Capturas%20web/Captura%20de%20pantalla%202014-01-26%20a%20la%28s%29%2010.38.56.png)
 
 
+# Instalación de la tipografía
+
+
+
+
+
+
+# Explicación del código
+
+El código para realizar la web es en lenguaje HTML5, realizado con Bootstrap. Esta parte del código no es relevante para comentar, por ello nos centraremos en las partes donde esta la parte de la tipografía y el cógido que se usa para generar la imagen.
+
