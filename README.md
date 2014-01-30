@@ -110,16 +110,25 @@ El código para realizar la web es en lenguaje HTML5, realizado con Bootstrap. E
 
 Para ello primeramente mostramos la parte del código donde se crea el formulario, y enviamos datos a la página que se encargará de crear la imagen:
 
-![IV]()
+![IV](https://raw.github.com/IV-GII/GranadaTS/master/capturascodigo/formulario1.png)
 
 
 Una vez ya seleccionado lo que deseamos pasamos a utilizar los valores recibidos. Para ello primeramente cargaremos la plantilla (.svg) que se escogió, y una vez cargada, modificaremos los valores que nos han pasado por los que existían como el tamaño, el color de fondo y el texto.
 
 
-![IV]()
+![IV](https://raw.github.com/IV-GII/GranadaTS/master/capturascodigo/formulario2.png)
 
 
 Y finalmente creamos nuestra imagen, para una posterior descarga.
 
 
+![IV](https://raw.github.com/IV-GII/GranadaTS/master/capturascodigo/formulario3.png)
+
+
+Ahora vamos a pasar a mostrar el código de nuestras plantilla svg, para ver que es lo que modificamos.
+
+Podemos observar como hemos cambiado el color de fondo con [[COLOR_FONDO]], como hemos modificado el tamaño de la letra con [[TAM]] y por último como hemos modificado el texto a mostrar con [[TEXTO1]].
+
 ![IV]()
+
+
