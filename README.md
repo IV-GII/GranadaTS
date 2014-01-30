@@ -81,7 +81,7 @@ Para la instalación de la tipografía, primeramente hemos entrado en la web de 
 
 Seguidamente hemos cambiado el formato al archivo de forma que nos sirva para instalar la tipografía en el servidor y para la web.
 
-Una vez ya tenemos los archivos necesarios para instalar nuestra tipografía, tenemos que realizar dos parte:
+Una vez ya tenemos los archivos necesarios para instalar nuestra tipografía, tenemos que realizar dos partes:
 
 *1º Instalación en el servidor
 
@@ -102,14 +102,14 @@ Y ya tenemos disponibilidad para utilizar la tipografía que hemos llamado "gran
 
 # Explicación del código
 
-El código para realizar la web es en lenguaje HTML5, realizado con Bootstrap. Esta parte del código no es relevante para comentar, por ello nos centraremos en las partes donde esta la parte de la tipografía y el cógido que se usa para generar la imagen.
+El código para realizar la web es en lenguaje HTML5, realizado con Bootstrap. Esta parte del código no es relevante para comentar, por ello nos centraremos en las partes donde esta la tipografía y el cógido que se usa para generar la imagen.
 
 Para ello primeramente mostramos la parte del código donde se crea el formulario, y enviamos datos a la página que se encargará de crear la imagen:
 
 ![IV](https://raw.github.com/IV-GII/GranadaTS/master/capturascodigo/formulario1.png)
 
 
-Una vez ya seleccionado lo que deseamos pasamos a utilizar los valores recibidos. Para ello primeramente cargaremos la plantilla (.svg) que se escogió, y una vez cargada, modificaremos los valores que nos han pasado por los que existían como el tamaño, el color de fondo y el texto.
+Una vez ya seleccionado lo que deseamos, pasamos a utilizar los valores recibidos. Para ello primeramente cargaremos la plantilla (.svg) que se escogió, y una vez cargada, modificaremos los valores que nos han pasado, por los que existían como el tamaño, el color de fondo y el texto.
 
 
 ![IV](https://raw.github.com/IV-GII/GranadaTS/master/capturascodigo/formulario2.png)
