@@ -81,8 +81,6 @@ Para la instalación de la tipografía, primeramente hemos entrado en la web de 
 
 Seguidamente hemos cambiado el formato al archivo de forma que nos sirva para instalar la tipografía en el servidor y para la web.
 
-![IV]()
-
 Una vez ya tenemos los archivos necesarios para instalar nuestra tipografía, tenemos que realizar dos parte:
 
 *1º Instalación en el servidor
@@ -98,8 +96,6 @@ Ahora para utilizarlo para nuestra web hemos de añadir el siguiente código en 
 ![IV](https://raw.github.com/IV-GII/GranadaTS/master/capturastipografia/font-face.png)
 
 Y ya tenemos disponibilidad para utilizar la tipografía que hemos llamado "granada".
-
-
 
 
 
@@ -129,6 +125,8 @@ Ahora vamos a pasar a mostrar el código de nuestras plantilla svg, para ver que
 
 Podemos observar como hemos cambiado el color de fondo con [[COLOR_FONDO]], como hemos modificado el tamaño de la letra con [[TAM]] y por último como hemos modificado el texto a mostrar con [[TEXTO1]].
 
-![IV]()
+![IV](https://raw.github.com/IV-GII/GranadaTS/master/capturascodigo/formulario4.png)
+
+
 
 
