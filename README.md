@@ -75,6 +75,28 @@ Y por último tenemos una pestaña de "Contacto", donde se encuentra al equipo d
 
 # Instalación de la tipografía
 
+Para la instalación de la tipografía, primeramente hemos entrado en la web de http://www.granadatierrasoñada.es/ y nos hemos descargado la tipografía.
+
+![IV]()
+
+Seguidamente hemos cambiado el formato al archivo de forma que nos sirva para instalar la tipografía en el servidor y para la web.
+
+![IV]()
+
+Una vez ya tenemos los archivos necesarios para instalar nuestra tipografía, tenemos que realizar dos parte:
+
+*1º Instalación en el servidor
+
+Para instalarlo en el servidor tenemos que introducir en el servidor "gksudo nautilus /usr/share/fonts". Con ello estaremos en la carpeta de fuentes del servidor, en ella creamos una carpeta para tenerlo más localizado todo, y copiamos allí los ficheros. Por último tendremos que actualizar la caché de las tipografía y ya lo tenemos.
+
+*2º Instalación para la web
+
+Para la web simplemente hemos copiado los fichero en el archivo donde estan los archivos css. 
+
+Ahora para utilizarlo para nuestra web hemos de añadir el siguiente código en nuestro css, donde utilizaremos la tipografía. Aquí lo mostramos:
+
+![IV]()
+
 
 
 
