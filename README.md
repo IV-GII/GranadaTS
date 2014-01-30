@@ -108,3 +108,18 @@ Y ya tenemos disponibilidad para utilizar la tipografía que hemos llamado "gran
 
 El código para realizar la web es en lenguaje HTML5, realizado con Bootstrap. Esta parte del código no es relevante para comentar, por ello nos centraremos en las partes donde esta la parte de la tipografía y el cógido que se usa para generar la imagen.
 
+Para ello primeramente mostramos la parte del código donde se crea el formulario, y enviamos datos a la página que se encargará de crear la imagen:
+
+![IV]()
+
+
+Una vez ya seleccionado lo que deseamos pasamos a utilizar los valores recibidos. Para ello primeramente cargaremos la plantilla (.svg) que se escogió, y una vez cargada, modificaremos los valores que nos han pasado por los que existían como el tamaño, el color de fondo y el texto.
+
+
+![IV]()
+
+
+Y finalmente creamos nuestra imagen, para una posterior descarga.
+
+
+![IV]()
