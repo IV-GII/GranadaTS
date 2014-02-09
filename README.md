@@ -203,6 +203,9 @@ Podemos observar como hemos cambiado el color de fondo con [[COLOR_FONDO]], como
 ![IV](https://raw.github.com/IV-GII/GranadaTS/master/capturascodigo/formulario4.png)
 
 
+Ejemplo del resultado:
+
+![resultado](https://dl.dropbox.com/s/0khwj3rl52x2s1n/pantallazo.png)
 
 --
 GRANADA TS - JRR Corporation
