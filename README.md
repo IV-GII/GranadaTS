@@ -71,11 +71,11 @@ En nuestra máquina local, creamos el fichero ansible_hosts e introducimos lo si
     
 Así que ya sólo queda descargar el repositorio mediante ansible, de la siguiente manera:
 
-*   Exportamos el fichero creado anteriormente:
+* Exportamos el fichero creado anteriormente:
 
     export ANSIBLE_HOSTS=~/ansible_hosts
 
-*   Desplegamos la aplicación:
+* Desplegamos la aplicación:
 
     ansible azure -m git --ask-pass -u azureuser -a "repo=https://github.com/IV-GII/GranadaTS.git dest=~/DAI version=HEAD"
 
