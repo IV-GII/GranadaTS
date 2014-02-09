@@ -23,9 +23,12 @@ Con ello vamos a crear una aplicación en HTML5. En ella se mostrará un conjunt
 Como herramientas utilizaremos Azure, para colgar la aplicación y bootstrap como framework.
 
 
-###INSTALACIÓN SERVIDOR EN AZURE
+###INGENIERÍA DE SERVIDORES
 
-El servidor que vamos utilizar tiene las siguientes prestaciones:
+
+Hemos Instalado 2 servidores en la nube con la cuenta gratuita que disponemos en Windows Azure, con dos cuentas diferentes por la limitación que tenemos. Las dos máquinas tienen las mismas características, una la hemos usado como servidor de producción y otra de desarrollo.
+
+El tipo de servidor que hemos utilizado tiene las siguientes prestaciones:
 
 ![IV](https://raw2.github.com/IV-GII/GranadaTS/master/Capturas%20Azure/Captura%20de%20pantalla%202014-01-24%20a%20la%28s%29%2018.06.22.png)
 
@@ -37,6 +40,40 @@ El servidor que vamos utilizar tiene las siguientes prestaciones:
 
 ![IV](https://raw2.github.com/IV-GII/GranadaTS/master/Capturas%20Azure/Captura%20de%20pantalla%202014-01-24%20a%20la%28s%29%2018.07.35.png)
 
+###APROVISIONAMIENTO
+
+Para el aprovisionamiento, hemos utilizado ansible, dado en el último tema de Infraestructura Virtual, en el que instalar PHP, Apache... de modo que hacemos lo siguiente:
+
+
+Lo primero que vamos a hacer es desplegar nuestro código en la máquina, de modo que en nuestra máquina local, instalamos ansible mediante:
+
+1.  Instalamos su repositorio:
+
+    sudo add-apt-repository ppa:rquillo/ansible
+  
+2.  Terminamos la instalación:
+
+    sudo apt-get update
+    sudo apt-get install ansible
+    
+Una vez llegados a este punto, instalamos git en la máquina azure, mediante:
+
+    sudo apt-get install git
+
+En nuestra máquina local, creamos el fichero ansible_hosts e introducimos lo siguiente:
+
+    [azure]
+    granadats.cloudapp.net
+    
+Así que ya sólo queda descargar el repositorio mediante ansible, de la siguiente manera:
+
+Exportamos el fichero creado anteriormente:
+
+1.  Desplegamos la aplicación:
+
+    ansible azure -m git --ask-pass -u azureuser -a "repo=https://github.com/rafaelgonz/DAI.git dest=~/DAI version=HEAD"
+
+###DESARROLLO
 
 Para el entorno hemos trabajado con Bootstrap, utilizando HTML5.
 
@@ -128,5 +165,10 @@ Podemos observar como hemos cambiado el color de fondo con [[COLOR_FONDO]], como
 ![IV](https://raw.github.com/IV-GII/GranadaTS/master/capturascodigo/formulario4.png)
 
 
+
+--
+GRANADA TS - JRR Corporation
+
+Granada, febrero de 2014
 
 
