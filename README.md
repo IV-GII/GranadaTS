@@ -71,11 +71,44 @@ En nuestra máquina local, creamos el fichero ansible_hosts e introducimos lo si
     
 Así que ya sólo queda descargar el repositorio mediante ansible, de la siguiente manera:
 
-Exportamos el fichero creado anteriormente:
+*   Exportamos el fichero creado anteriormente:
 
-1.  Desplegamos la aplicación:
+    export ANSIBLE_HOSTS=~/ansible_hosts
 
-    ansible azure -m git --ask-pass -u azureuser -a "repo=https://github.com/rafaelgonz/DAI.git dest=~/DAI version=HEAD"
+*   Desplegamos la aplicación:
+
+    ansible azure -m git --ask-pass -u azureuser -a "repo=https://github.com/IV-GII/GranadaTS.git dest=~/DAI version=HEAD"
+
+
+Ahora para instalar los módulos necesarios, hemos creado el fichero granadats.yml con la siguiente información:
+
+        ---
+        - hosts: azure
+          sudo: yes
+          tasks:
+            - name: Apache
+            apt: name=apache2 state=present
+
+            - name: Instalar generador de imagen
+            apt: name=imagemagick state=present
+            
+            - name: Instalar libreria svg
+            apt: name=librsvg2-bin state=present
+            
+            - name: Modulo PHP de apache
+            apt: name=libapache2-mod-php5 state=present
+
+            - name: start Apache
+            service: name=apache2 state=running enabled=yes
+
+            - name: Copiar aplicación a /var/www
+            copy: src=index.php dest=/var/www/index.php mode=0664
+
+Y lo ejecutamos para aprivisionar nuestras máquinas:
+
+    ansible-playbook granadats.yml -u azureuser --ask-pass
+    
+    
 
 ###DESARROLLO
 
