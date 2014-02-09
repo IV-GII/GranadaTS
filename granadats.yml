@@ -1,0 +1,21 @@
+---
+    - hosts: azure
+      sudo: yes
+      tasks:
+        - name: Apache
+        apt: name=apache2 state=present
+
+        - name: Instalar generador de imagen
+        apt: name=imagemagick state=present
+
+        - name: Instalar libreria svg
+        apt: name=librsvg2-bin state=present
+
+        - name: Modulo PHP de apache
+        apt: name=libapache2-mod-php5 state=present
+
+        - name: start Apache
+        service: name=apache2 state=running enabled=yes
+
+        - name: Copiar aplicación a /var/www
+        copy: src=/WEB dest=/var/www/WEB mode=0664
