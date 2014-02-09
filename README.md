@@ -102,7 +102,7 @@ Ahora para instalar los módulos necesarios, hemos creado el fichero granadats.y
             service: name=apache2 state=running enabled=yes
 
             - name: Copiar aplicación a /var/www
-            copy: src=index.php dest=/var/www/index.php mode=0664
+            copy: src=/WEB dest=/var/www/WEB mode=0664
 
 Y lo ejecutamos para aprivisionar nuestras máquinas:
 
