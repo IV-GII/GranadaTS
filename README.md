@@ -17,7 +17,7 @@ La dirección del proyecto es: http://granadats.cloudapp.net
 Este es un proyecto para la empresa Granada Tierra Soñada, http://www.granadatierrasoñada.es/.
 
 
-![Imagen](https://dl.dropbox.com/sh/mt6cs999tcupy3q/L7exgHiq-c)
+![Imagen](https://dl.dropbox.com/s/vz7af724csw78av/GTS-1280x800-malafolla.jpg)
 
 
 La idea de esta empresa se basa en su tipología creada, basaba en Granada. Es un proyecto apasionante y muy innovador.
