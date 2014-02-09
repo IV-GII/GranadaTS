@@ -1,5 +1,5 @@
-##GranadaTS
-
+#GranadaTS
+##JRR Corporation
 
 Proyecto creación aplicación para empresa.
 
@@ -77,7 +77,7 @@ Así que ya sólo queda descargar el repositorio mediante ansible, de la siguien
 
 * Desplegamos la aplicación:
 
-    ansible azure -m git --ask-pass -u azureuser -a "repo=https://github.com/IV-GII/GranadaTS.git dest=~/DAI version=HEAD"
+    ansible azure -m git --ask-pass -u azureuser -a "repo=https://github.com/IV-GII/GranadaTS.git dest=~/ version=HEAD"
 
 
 Ahora para instalar los módulos necesarios, hemos creado el fichero granadats.yml con la siguiente información:
@@ -108,9 +108,10 @@ Y lo ejecutamos para aprivisionar nuestras máquinas:
 
     ansible-playbook granadats.yml -u azureuser --ask-pass
     
-    
+Mencionar, que hemos realizado el mismo aprovisionamiento en los dos servidores, tanto en el de desarrollo como en el de producción, ahorrando de este modo, tiempo para instalar todos los componentes.
 
-###DESARROLLO
+
+###DESARROLLO DE LA APLICACIÓN
 
 Para el entorno hemos trabajado con Bootstrap, utilizando HTML5.
 
@@ -208,4 +209,9 @@ GRANADA TS - JRR Corporation
 
 Granada, febrero de 2014
 
+* Jose López Sánchez
+
+* Rafael Gónzalez Jiménez
+
+* Raúl Sánchez Fuentes
 
